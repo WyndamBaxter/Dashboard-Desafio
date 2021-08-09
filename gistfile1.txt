@@ -1,0 +1,49 @@
+Descrição da atividade:
+
+- Implementar uma dashboard simples com o objetivo de gerenciar wallets. 
+  (https://www.figma.com/file/AKK098W4FIbmJNMOEWPdHF/Main-File?node-id=0%3A1)
+- Telas: 
+    - Home contendo uma listagem de contatos para rápida transferência
+    - Gráfico contendo atividades recentes com select de filtro( mês e ultimos 15 dias)
+    - Button para realizar uma transferência manual
+    - Select para escolher o tipo de moeada
+    - Modal ao clicar no Button de transfêrência abrindo um formulário para a transferência(sinta-se livre para prototipar 
+      o modal com formulário da maneira desejada)
+    - Listagem de cartões cadastrados
+    - Button para realizar um cadastro de um novo cartão
+    - Ao clicar no Button de novo cartão deve abrir um modal com um formulário para cadastrar um novo cartãos(sinta-se livre 
+      para prototipar o modal com formulário da maneira desejada)
+    - "All expenses" Componente contendo as despesas(entradas, saidas e sado) contendo um grafico
+    - Listagem das ultimas transações
+
+O que esperamos:
+
+1. Será avaliado a fidelidade do aplicativo em relação a ui/ux descrita.
+2. Você deve construir a dashboard usando angular(https://angular.io/), usando css ou scss. (caso queira, utilize algum 
+framework css que auxilie na construção das grids, ou caso prefira utilize as técnicas de flexbox e grid-layout)
+2. Boa escrita de código: componentizão, separação de responsabilidades, reaproveitamento de metodos. 
+3. Conexão com api: Nesse ponto você deveimplementar uma api simples usando nestjs (https://nestjs.com/) + typeorm
+4. Sinta-se a vontade para escolher o banco dados (ex: postgreesql, mongodb)
+5. Uso de eslint no projeto.
+6. Uso de typescript. Nesse ponto esperamos que você trabalhe bem na tipagem da informações, evitando o uso de 'any'
+
+Desafios extras, FAÇA APENAS SE SOBRAR TEMPO, caso queira mostrar capacidades extras, aqui seguem algumas sugestões:
+
+0. Crie vc seu desafio, descreva e nos surpreenda! Tome liberdade de criar novas telas respeitando a ux/ui desenhada
+  (Ex: criar uma tela para ver todas as transações)
+1. Escrever testes usando o cypress(https://www.cypress.io/);
+2. Usar docker-compose junto ao nestjs.
+3. Esse ponto é um bônus baseado nas habilidades de mobile com flutter, como descrito acima caso tenha o tempo dentro do desafio
+crie um app em flutter com o mesmo tema de wallet seguindo 
+a seguinte ui https://www.figma.com/file/ZjHEkVcegMuQuyF6VhHWxk/CryptoWalletApp?node-id=0%3A1 nesse ponto você poderia conectar
+o mesmo backend que serviu o dashboard web no app.
+
+Criterios de avaliação:
+- Descrição clara da sua proposta - É esperado que o candidato descreva um readme contendo os passos de execução do projeto, 
+ ferramentas utilizadas no desenvolvimento, descrição da resolução do problema proposto de forma clara e coesa.
+- Qualidade da API: É esperado a representação dos dados da forma mais próxima possível do contexto real.
+- Qualidade das estruturas de dados.
+- Qualidade do front: Implementação fidedigna da ui/ux proposta
+- Organização
+- Demonstrar as decisões que venham agregar a facilitação de manutenção do codigo, legibilidade, etc.
+- Completude do que se propuser a fazer.
